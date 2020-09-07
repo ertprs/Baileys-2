@@ -13,7 +13,7 @@ import * as fs from 'fs'
 import mysql from 'mysql'
 
 function getContent() {
-    //https://www.indiaabroad.com/indian-americans/dreams-from-her-mother-how-shyamala-gopalan-prepared-kamala-harris-for-the-white-house/article_fffe185a-1d31-11e9-ba9b-973ade35c0fb.html
+    // https://www.indiaabroad.com/indian-americans/dreams-from-her-mother-how-shyamala-gopalan-prepared-kamala-harris-for-the-white-house/article_fffe185a-1d31-11e9-ba9b-973ade35c0fb.html
     let content = fs.readFileSync('./Media/kamala2.jpeg');
     return content;
 }
