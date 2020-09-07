@@ -19,6 +19,7 @@ function getContent() {
 }
 
 function saveChatToDb(sender, receiver, content) {
+    return;
     // var connection = mysql.createConnection({
     //     host     : 'localhost',
     //     user     : 'root',
