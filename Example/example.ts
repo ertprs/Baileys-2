@@ -19,9 +19,15 @@ function getContent() {
 }
 
 function saveChatToDb(sender, receiver, content) {
+    // var connection = mysql.createConnection({
+    //     host     : 'localhost',
+    //     user     : 'root',
+    //     password : 'Asdf1234',
+    //     database : 'tsb'
+    // });
     var connection = mysql.createConnection({
-        host     : 'localhost',
-        user     : 'root',
+        host     : 'aarq63ieh2u70c.cxolgjrfiats.us-west-1.rds.amazonaws.com',
+        user     : 'venkateshkr',
         password : 'Asdf1234',
         database : 'tsb'
     });
