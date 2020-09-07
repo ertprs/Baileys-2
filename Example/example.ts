@@ -166,7 +166,7 @@ async function example() {
             messageToSend = "Dear Friend,\n" +
                 "Let's help elect Democrats in 2020.\n" +
                 "To get started, please click this WhatsApp link and send the msg:\n" +
-                "https://wa.me/16504592722?text=Vote%20Blue%20from%20%2B" + senderPhoneNumber + "\n" +
+                "https://wa.me/16504592617?text=Vote%20Blue%20from%20%2B" + senderPhoneNumber + "\n" +
                 "See http://LetsVote.blue for more info.";
 
             // messageToSend = "To help elect Democrats in 2020, please click this WhatsApp link and send the msg: " +
